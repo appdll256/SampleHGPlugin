@@ -3,8 +3,9 @@ version: 0.1
 author: Daniel Rosenberger (appdll256)
 main: de.de.samplehungergamesplugin.SampleHGPlugin
 
-depend:
-website:
+database: true
+
+website: https://github.com/appdll256/SampleHGPlugin
 commands:
   chest:
     description: Specifies a chest location
