@@ -1,0 +1,23 @@
+name: SampleHungerGamesPlugin
+version: 0.1
+author: Daniel Rosenberger (appdll256)
+main: de.de.samplehungergamesplugin.SampleHGPlugin
+
+depend:
+website:
+commands:
+  chest:
+    description: Specifies a chest location
+    usage: /chest <add <(x,y,z)>|remove <(x,y,z)>>
+
+  delete:
+    description: Deletes an arena
+    usage: /delete
+
+  maintenance:
+    description: Starts/stops the maintenance mode
+    usage: /maintenance <start <worldName>|stop>
+
+  type:
+    description: -----
+    usage: /type -----
