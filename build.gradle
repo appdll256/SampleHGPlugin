@@ -1,6 +1,6 @@
-version '0.1'
-
 apply plugin: 'java'
+
+version '0.1'
 
 sourceCompatibility = 1.8
 
@@ -25,8 +25,12 @@ sourceSets{
 
 repositories {
     mavenCentral()
+    maven {
+        url "https://hub.spigotmc.org/nexus/content/repositories/snapshots/"
+    }
 }
 
 dependencies {
+    compileClasspath group: 'org.bukkit', name: 'bukkit', version: '1.8.8-R0.1-SNAPSHOT'
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
